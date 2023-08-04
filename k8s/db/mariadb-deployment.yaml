@@ -17,7 +17,7 @@ spec:
             claimName: mariadb-pvc
       containers:
       - name: maria-db
-        image: mariadb
+        image: mariadb:10
         resources:
           limits:
             memory: "128Mi"
